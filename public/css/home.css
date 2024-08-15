@@ -1,3 +1,235 @@
-div {
-    color: red !important;
+:root {
+    --primary-color: #ffcf40;
+    --primary-color-rgb: rgb(227, 192, 134);
+    --secondary-color: #cc8d64;
+    --secondary-color-rgb: rgb(227, 192, 134);
+    --tertiary-color: #210f0a;
+    --tertiary-color-rgb: rgb(71, 53, 41);
+    --lightest-color:#f1ededa6;
+} 
+.shadows{
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+.w-80{
+    width: 80%;
+}
+.leads{
+    text-align: justify;
+}
+.btn-custom {
+    background-color:var(--primary-color);
+    border-color:var(--primary-color);
+}
+.s3{
+    line-height: 45px;
+    border: solid 1px white;
+    border-left: none;
+    border-right: none;
+} 
+.s4{
+    line-height: 45px;
+    border: solid 1px rgba(0, 0, 0, .5);
+    border-left: none;
+    border-right: none;
+}
+.img-dark1 {
+    filter: brightness(30%);
+}
+/* Home_1 section */
+.custom-carousel-height {
+    height: 700px; 
+    object-fit: cover; 
+}
+.slider {
+    transform: translate(-50%, -50%);
+    bottom: auto;
+    right: auto;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+
+}
+.carousel-item-next .carousel-caption,
+.carousel-item-prev .carousel-caption {
+  transform: translate(-50%, -100%);
+  opacity: 0;
+}
+
+.carousel-item-next.carousel-item-left .carousel-caption,
+.carousel-item-prev.carousel-item-right .carousel-caption {
+  transform: translate(-50%, 0);
+  opacity: 1;
+}
+/* Home_2 section */
+@keyframes scroll-left {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+#Home_2{
+    padding: 60px 0 60px 0;
+}
+.Logo-1{
+    width: 163.09px;
+    height: 200px;
+}
+.Logo-2{
+    width: 304.65px;
+    height: 200px;
+}
+.Logo-3{
+    width: 300.27px;
+    height: 200px;
+}
+.stock-ticker ul {
+    animation: scroll-left 15s linear infinite;
+}
+.ticker-list {
+    animation: scroll-left 20s linear infinite;
+}
+.ticker-list:hover {
+    animation-play-state: paused;
+}
+/* Home_3 section */
+#Home_3{
+    background-color: var(--lightest-color);
+}
+.ceylone{
+    transition: transform 0.5s ease, box-shadow 0.5s ease; 
+}
+.ceylone:hover {
+    transform: translateY(-10px); 
+}
+/* Home_4 section */
+.Bars{
+    transition: transform 0.5s ease, box-shadow 0.5s ease; 
+}
+.Bars:hover{
+    transform: translateY(-10px); 
+}
+/* Home_5 section */
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(10%, 0, 0);
+        transform: translate3d(10%, 0, 0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+.fadeInRight {
+    animation-name: fadeInRight;
+    animation-duration: 2s; 
+    animation-fill-mode: both;
+}
+.animate-me {
+    opacity: 0;
+}
+#Home_5{
+    background-color: var(--secondary-color-rgb);
+}
+.contact{
+    width: 80px; 
+    height: 80px;
+}
+/* Home_6 section */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 30%, 0);
+        transform: translate3d(0, 30%, 0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+.fadeInUp {
+    animation-name: fadeInUp;
+    animation-duration: 1s; 
+    animation-fill-mode: both;
+}
+.animate-me-1 {
+    opacity: 0;
+}
+.custom-height {
+    height: 400px;
+    object-fit: cover;
+}
+/* Home_7 section */
+.bowl{
+    transition: transform 0.5s ease, box-shadow 0.5s ease; 
+}
+.bowl:hover{
+    transform: translateY(-10px); 
+}
+/* Home_8 section */
+#Home_8{
+    background-size: cover;
+}
+.review-container{
+    background-size: cover;
+}
+.review-bg{
+    max-width: none;
+    width: 972px;
+    height: 581.3px;
+}
+.padding80{
+    padding: 80px;
+    background: #210f0a;
+}
+blockquote span{
+    margin-top: 20px;
+    font-size: 14px;
+}
+/* Home_9 section */
+#Home_9{
+    background-color: #f4eee8;
+    background-size: cover;
+}
+.card-img-top{
+    transition: transform 0.5s ease, box-shadow 0.5s ease; 
+}
+.card-img-top:hover{
+    transform: translateY(-10px); 
+}
+
+/* Responsive adjustments for tablets */
+/* Home_2 section */
+@media (max-width: 768px) {
+    .Logo-1 {
+        width: 130px; 
+        height: 160px; 
+    }
+    .Logo-2 {
+        width: 243px;
+        height: 160px;
+    }
+    .Logo-3 {
+        width: 240px;
+        height: 160px;
+    }
+}
+
+/* Responsive adjustments for mobile devices */
+/* Home_2 section */
+@media (max-width: 576px) {
+    .Logo-1 {
+        width: 100px; 
+        height: 120px;
+    }
+    .Logo-2 {
+        width: 190px;
+        height: 120px;
+    }
+    .Logo-3 {
+        width: 188px;
+        height: 120px;
+    }
 }
