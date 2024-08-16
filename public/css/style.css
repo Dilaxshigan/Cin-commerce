@@ -1,1 +1,105 @@
-
+:root {
+    --primary-color: #ffcf40;
+    --primary-color-rgb: rgb(227, 192, 134);
+    --secondary-color: #cc8d64;
+    --secondary-color-rgb: rgb(227, 192, 134);
+    --tertiary-color: #210f0a;
+    --tertiary-color-rgb: rgb(71, 53, 41);
+    --lightest-color:#f1ededa6;
+} 
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(10%, 0, 0);
+        transform: translate3d(10%, 0, 0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+.fadeInRight {
+    animation-name: fadeInRight;
+    animation-duration: 2s; 
+    animation-fill-mode: both;
+}
+.animate-me {
+    opacity: 0;
+}
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 30%, 0);
+        transform: translate3d(0, 30%, 0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+.fadeInUp {
+    animation-name: fadeInUp;
+    animation-duration: 1s; 
+    animation-fill-mode: both;
+}
+.animate-me-1 {
+    opacity: 0;
+}
+.shadows{
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+.w-80{
+    width: 80%;
+}
+.leads{
+    text-align: justify;
+}
+.btn-custom {
+    background-color:var(--primary-color);
+    border-color:var(--primary-color);
+}
+.s3{
+    line-height: 45px;
+    border: solid 1px white;
+    border-left: none;
+    border-right: none;
+} 
+.s4{
+    line-height: 45px;
+    border: solid 1px rgba(0, 0, 0, .5);
+    border-left: none;
+    border-right: none;
+}
+.img-dark1 {
+    filter: brightness(30%);
+}
+.custom-height {
+    height: 400px;
+    object-fit: cover;
+}
+/* Home_9 section */
+#Home_9{
+    background-color: #f4eee8;
+    background-size: cover;
+}
+.certificates{
+    min-height: 30vh;
+}
+.card-img-top{
+    transition: transform 0.5s ease, box-shadow 0.5s ease; 
+}
+.card-img-top:hover{
+    transform: translateY(-10px); 
+}
+/* subheader section */
+#subheader{
+    background-size: cover;
+}
+.object{
+    transform: scale(1.1);
+}
+.mb-bottom{
+    margin-top: 180px;
+}

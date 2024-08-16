@@ -11,14 +11,14 @@
         <div class="carousel-caption position-absolute top-50 start-50 d-md-block text-center slider">
           <div class="display-2 fw-semibold text-uppercase mb-3">Real SriLankan</div>
           <p class="display-3 fst-italic text-secondary">Cinnamon</p>
-          <p><a href="#" class="btn btn-custom fw-semibold rounded-lg mt-2">VIEW PRODUCT</a></p>
+          <p><a href="{{ route('product') }}" class="btn btn-custom fw-semibold rounded-lg mt-2">VIEW PRODUCT</a></p>
         </div>
       </div>
       <div class="carousel-item">
         <img src="{{ asset('img/slider/cinnamon1.jpg') }}" class="d-block w-100 custom-carousel-height rounded" alt="Cinnamon_1-Background">
         <div class="carousel-caption position-absolute top-50 start-50 d-md-block text-center slider">
           <div class="display-2 fw-semibold text-uppercase mb-3">Flavor & Health<br>for Your Dishes</div>
-          <p><a href="#" class="btn btn-custom fw-semibold rounded-lg mt-2">EXPLORE PRODUCT</a></p>
+          <p><a href="{{ route('product') }}" class="btn btn-custom fw-semibold rounded-lg mt-2">EXPLORE PRODUCT</a></p>
         </div>
       </div>
     </div>
@@ -129,7 +129,7 @@
                     <div class="spacer-single"></div>
                     <h3>High-Quality Products & Safety</h3>
                     <p>We prioritize safety and quality. Strict controls and extensive testing ensure every product meets the highest standards.</p>
-                    <a href="#" class=" btn btn-custom">Read More</a>
+                    <a href="{{ route('blog') }}" class=" btn btn-custom">Read More</a>
                 </div>
 
                 <div class="col-lg-4 pb-3 animate-me">
@@ -137,7 +137,7 @@
                     <div class="spacer-single"></div>
                     <h3>Certified Products</h3>
                     <p>We hold both GMP and ISO 22000 certifications, showcasing our commitment to top-tier manufacturing practices.</p>
-                    <a href="#" class="btn btn-custom">Read More</a>
+                    <a href="{{ route('blog') }}" class="btn btn-custom">Read More</a>
                 </div>
 
                 <div class="col-lg-4 pb-3 animate-me">
@@ -145,7 +145,7 @@
                     <div class="spacer-single"></div>
                     <h3>Get Expert Help, Fast</h3>
                     <p>Expert help, always here. Get questions answered & needs met for a positive experience. We value your feedback!</p>
-                    <a href="#" class=" btn btn-custom">Read More</a>
+                    <a href="{{ route('blog') }}" class=" btn btn-custom">Read More</a>
                 </div>
 
             </div>
@@ -205,12 +205,12 @@
                     <div class="padding80">
                         <div class="text-center">
                             <h2 class="fs1 display-4 fw-semibold text-uppercase text-secondary animate-me-1">Customers</h2>
-                            <h2 class="fs2 s3 text-white animate-me-1">Review</h2>
+                            <h2 class="fs2 d-inline-block s3 text-white animate-me-1">Review</h2>
                             <div class="spacer-single"></div>
                         </div>
 
 
-                        <div id="carouselExampleCaptions" class="carousel slide mt-3" data-bs-ride="carousel" style="display: inline-block; min-height: 30vh;">
+                        <div id="carouselExampleCaptions" class="carousel slide mt-3 d-inline-block certifictes" data-bs-ride="carousel">
                             <div class="carousel-indicators">
                                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -262,7 +262,7 @@
 
             <div class="text-center">
 
-                <h2 class="fs1 display-4 fw-semibold py-2 text-white animate-me-1">our Certification </h2>
+                <h2 class="fs1 display-4 fw-semibold d-inline-block s3 py-2 text-white animate-me-1">our Certification </h2>
                 <div class="spacer-single"></div>
             </div>
 
@@ -325,9 +325,6 @@
         </div>
 </section> 
 <!-- Home_9 section ends -->
-
-
-
 
 @endsection
 

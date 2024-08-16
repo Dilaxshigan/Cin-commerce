@@ -1,0 +1,19 @@
+/* image section */
+#content{
+    background-size: cover;
+}
+.hover-effects {
+    transition: box-shadow 0.5s ease-in-out;
+    transition: transform ease 0.5s, box-shadow ease 0.5s !important;
+}
+.hover-effects:hover {
+    transform: translateY(-6px);
+    box-shadow: 0rem 2rem 2rem 0rem rgb(0 0 0 / 60%) !important;
+}
+/* info section */
+.cin{
+    transition: transform 0.5s ease, box-shadow 0.5s ease;     
+}
+.cin:hover {
+    transform: translateY(-10px); 
+}
