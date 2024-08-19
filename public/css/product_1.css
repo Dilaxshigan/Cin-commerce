@@ -1,14 +1,3 @@
-/* Sub header section */
-.breadcrumb {
-    margin-top: 20px;
-    justify-content: center;
-    font-size: 14px;
-}
-.breadcrumb-item + .breadcrumb-item::before {
-    content: "/";
-    padding: 0 0.5rem;
-    color: white;
-}
 /* Price section */
 .price-row{
     border: 1px solid rgba(0, 0, 0, 0.125); 

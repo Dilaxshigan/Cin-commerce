@@ -218,21 +218,21 @@
                             </div>
                             <div class="carousel-inner lead text-white">
                                 <div class="carousel-item mb-4 active">
-                                    <blockquote>
+                                    <blockquote class="leads">
                                         Hale's vanilla extract is a game-changer! A tiny bit adds incredible depth and aroma to my cookies and cakes. It's clear they use high-quality vanilla beans. Plus, the convenient dropper makes it easy to measure exactly what I need. No more messy spills! This is a staple in my baking cabinet now.
                                         <span class="d-block fs-normal fw-normal">Baking Enthusiast</span>
                                     </blockquote>
 
                                 </div>
                                 <div class="carousel-item mb-4">
-                                    <blockquote>
+                                    <blockquote class="leads">
                                         I appreciate Hale's commitment to organic ingredients, so I decided to try their turmeric powder. It has a nice earthy flavor that blends well with smoothies. However, I found it a little clumpy, which made it difficult to dissolve completely. Maybe a sifter would help? Overall, a decent option for those seeking organic turmeric, but the consistency could be improved.
                                         <span class="d-block fs-normal fw-normal">Health-Conscious Consumer</span>
                                     </blockquote>
 
                                 </div>
                                 <div class="carousel-item mb-4">
-                                    <blockquote>
+                                    <blockquote class="leads">
                                         Love these pre-chopped herbs! Saves me so much time in the kitchen after a long workday. Fresh flavor and convenient packaging. Perfect for adding a quick burst of flavor to any dish. Would recommend - especially for busy families!
                                         <span class="d-block fs-normal fw-normal">Busy Professional</span>
                                     </blockquote>

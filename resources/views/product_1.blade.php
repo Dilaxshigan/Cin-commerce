@@ -10,7 +10,7 @@
                     <div class="col-md-12 mb-bottom">
                         <div class="text-center animate-me-1">
                             <h2 class="fs2 display-4 fw-semibold d-inline-block s3 text-uppercase text-white py-1">Product</h2>
-                        <ol class="breadcrumb">
+                        <ol class="breadcrumb justify-content-center">
                             <li class="breadcrumb-item"><a href="/" class="text-white text-decoration-none img-dark1">Home</a></li>
                             <li class="breadcrumb-item"><a href="{{ route('product') }}" class="text-white text-decoration-none img-dark1">Product</a></li>
                             <li class="breadcrumb-item active text-white" aria-current="page">Organic Ceylon Alba Cinnamon Sticks</li>

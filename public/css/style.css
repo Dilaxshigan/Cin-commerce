@@ -53,6 +53,9 @@
 .w-80{
     width: 80%;
 }
+.w-55{
+    width: 55%;
+}
 .leads{
     text-align: justify;
 }
@@ -102,4 +105,22 @@
 }
 .mb-bottom{
     margin-top: 180px;
+}
+/* Sub header section */
+.breadcrumb {
+    margin-top: 20px;
+    /* justify-content: center; */
+    font-size: 14px;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+    content: "/";
+    padding: 0 0.5rem;
+    color: white;
+}
+/* Footer section */
+.custom-footer {
+    background-color: #210f0a;
+}
+.hover-footer:hover{
+    color: #ffc107 !important;
 }
