@@ -3,13 +3,7 @@
     border: 1px solid rgba(0, 0, 0, 0.125); 
     border-radius: 0.25rem;
 }
-/* Hidden form section */
-.form-control{
-    color: #000 !important;
-}
-.form-text{
-    color:red;
-}
+
 
 
 

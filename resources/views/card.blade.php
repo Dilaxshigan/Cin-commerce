@@ -43,25 +43,25 @@
             <form id="contactForm" method="post" action="#">
                 <div class="mb-3">
                     <label for="formGroupExampleInput" class="form-label">Name</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Your name" name="name" required pattern="[A-Za-z\s]{3,25}" title="Please enter only letters and spaces (min 3 characters, max 25 characters)">
-                    <div id="error_name" class="d-none form-text">*Please enter your name.</div>
+                    <input type="text" class="form-control-dark" id="formGroupExampleInput" placeholder="Your name" name="name" required pattern="[A-Za-z\s]{3,25}" title="Please enter only letters and spaces (min 3 characters, max 25 characters)">
+                    <div id="error_name" class="d-none text-danger">*Please enter your name.</div>
                     <input type="hidden" id="honeypot" name="honeypot">
                 </div>
 
                 <div class="mb-3">
                     <label for="formGroupExampleInput2" class="form-label">Phone</label>
-                    <input type="tel" required class="form-control" id="formGroupExampleInput2" placeholder="+xx xxxxxxx" name="phone" pattern="^\+\d{2}\d{7,14}$" title="Please enter a phone number in the format +XXXXXXXXX (country code must)">
+                    <input type="tel" required class="form-control-dark" id="formGroupExampleInput2" placeholder="+xx xxxxxxx" name="phone" pattern="^\+\d{2}\d{7,14}$" title="Please enter a phone number in the format +XXXXXXXXX (country code must)">
                 </div>
 
                 <div class="mb-3">
                     <label for="formGroupExampleInput3" class="form-label">Email</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput3" placeholder="cinamon@example.com" name="email" pattern=".+@.+\..+" title="Please enter a valid email address" required>
+                    <input type="text" class="form-control-dark" id="formGroupExampleInput3" placeholder="cinamon@example.com" name="email" pattern=".+@.+\..+" title="Please enter a valid email address" required>
                 </div>
 
                 <div class="mb-3">
                     <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Enter your message" rows="3" name="message" required></textarea>
-                    <div id="error_text" class="d-none form-text">*Your message must be at least 3 characters long.</div>
+                    <textarea class="form-control-dark" id="exampleFormControlTextarea1" placeholder="Enter your message" rows="3" name="message" required></textarea>
+                    <div id="error_text" class="d-none text-danger">*Your message must be at least 3 characters long.</div>
                 </div>
                 <div class="clearfix pt-2">
                     <input type="submit" value="Send" class="btn btn-custom fw-semibold text-uppercase text-decoration-none float-end">
