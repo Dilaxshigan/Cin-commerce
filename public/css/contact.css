@@ -1,0 +1,9 @@
+.text-underline-custom {
+    text-decoration: underline;
+    text-decoration-color: #945336;
+}
+.hover-effects {
+    border-radius: 0.9rem !important;
+    transition: box-shadow 0.5s ease-in-out;
+    transition: transform ease 0.5s, box-shadow ease 0.5s !important;
+}

@@ -87,9 +87,9 @@
                 <h2 class="fs-1 text-secondary">Genuine Premium Ceylon Cinnamon from Sri Lanka</h2>
                 <h2 class="fs-3">Why Choose Hale Cinnamon?</h2>
                 <div class="spacer-single"></div>
-                <p class="leads">Hale Cinnamon is your premier source for genuine premium Ceylon cinnamon from Sri Lanka. We are committed to providing our customers with the highest quality cinnamon products, sourced directly from Sri Lanka's finest cinnamon growers. Our cinnamon is known for its smooth, delicate flavor, rich aroma, and abundance of health benefits.</p>
-                <p class="leads"><strong>Hale Cinnamon: Your Trusted Cinnamon Partner</strong> At Hale Cinnamon, we are passionate about sharing the culinary and wellness wonders of Ceylon cinnamon. Our commitment to quality, sustainability, and customer satisfaction has made us a trusted partner for individuals and businesses worldwide.</p>
-                <p class="leads"><strong>Partner with Hale Cinnamon:</strong> We invite you to partner with Hale Cinnamon and experience the difference of genuine Ceylon cinnamon. Contact us today to discuss your specific requirements and discover how Hale Cinnamon can enhance your business.</p>
+                <p class="leads fs-5">Hale Cinnamon is your premier source for genuine premium Ceylon cinnamon from Sri Lanka. We are committed to providing our customers with the highest quality cinnamon products, sourced directly from Sri Lanka's finest cinnamon growers. Our cinnamon is known for its smooth, delicate flavor, rich aroma, and abundance of health benefits.</p>
+                <p class="leads fs-5"><strong>Hale Cinnamon: Your Trusted Cinnamon Partner</strong> At Hale Cinnamon, we are passionate about sharing the culinary and wellness wonders of Ceylon cinnamon. Our commitment to quality, sustainability, and customer satisfaction has made us a trusted partner for individuals and businesses worldwide.</p>
+                <p class="leads fs-5"><strong>Partner with Hale Cinnamon:</strong> We invite you to partner with Hale Cinnamon and experience the difference of genuine Ceylon cinnamon. Contact us today to discuss your specific requirements and discover how Hale Cinnamon can enhance your business.</p>
             </div>
         </div>
     </div>
@@ -107,9 +107,9 @@
                         <h2 class="fs-2">From Finest Lankan Estates</h2>
                         <div class="spacer-single"></div>
                     </div>
-                    <p class="leads"> Hale Cinnamon powders are renowned for their exceptional aroma, warm flavor, and rich antioxidants. Our meticulous processing methods ensure that every teaspoon delivers an unparalleled taste experience.</p>
+                    <p class="leads fs-5"> Hale Cinnamon powders are renowned for their exceptional aroma, warm flavor, and rich antioxidants. Our meticulous processing methods ensure that every teaspoon delivers an unparalleled taste experience.</p>
 
-                    <p class="leads"> Whether you're baking delectable pastries, simmering flavorful curries, or crafting aromatic beverages, our versatile cinnamon powders will elevate your culinary creations to new heights of deliciousness.We source our cinnamon directly from sustainable Sri Lankan farms, ensuring the highest quality and ethical practices. Our commitment to purity means you can be confident you're adding a healthy and flavorful ingredient to your meals.</p>
+                    <p class="leads fs-5"> Whether you're baking delectable pastries, simmering flavorful curries, or crafting aromatic beverages, our versatile cinnamon powders will elevate your culinary creations to new heights of deliciousness.We source our cinnamon directly from sustainable Sri Lankan farms, ensuring the highest quality and ethical practices. Our commitment to purity means you can be confident you're adding a healthy and flavorful ingredient to your meals.</p>
                 </div>
                 <div class="col-md-6 text-center align-self-center">
                     <img src="{{ asset('img/background/cinnamon3.jpg') }}" alt="Cinnamon Bars" class="rounded shadows img-fluid Bars">
@@ -124,28 +124,28 @@
  <div class="container">
             <div class="row bb gx-5 gy-4 text-center">
 
-                <div class="col-lg-4 pb-3 animate-me">
-                    <div class="rounded-circle bg-primary contact mx-auto my-3"></div>
+                <div class="col-lg-4 pb-3 animate-me fs-5">
+                    <div class="contact mx-auto my-3"><i style="color: #black; font-size: 80px" class="fa fa-check-circle fa-lg contact mt-3 p-2"></i></div>
                     <div class="spacer-single"></div>
                     <h3>High-Quality Products & Safety</h3>
                     <p>We prioritize safety and quality. Strict controls and extensive testing ensure every product meets the highest standards.</p>
-                    <a href="{{ route('blog') }}" class=" btn btn-custom">Read More</a>
+                    <a href="{{ route('blog') }}" class=" btn btn-custom fs-5">Read More</a>
                 </div>
 
-                <div class="col-lg-4 pb-3 animate-me">
-                    <div class="rounded-circle bg-primary contact mx-auto my-3"></div>
+                <div class="col-lg-4 pb-3 animate-me fs-5">
+                    <div class="contact mx-auto my-3"><i style="color: #black; font-size: 80px" class="fa fa-certificate fa-lg contact mt-3 p-2"></i></div>
                     <div class="spacer-single"></div>
                     <h3>Certified Products</h3>
                     <p>We hold both GMP and ISO 22000 certifications, showcasing our commitment to top-tier manufacturing practices.</p>
-                    <a href="{{ route('blog') }}" class="btn btn-custom">Read More</a>
+                    <a href="{{ route('blog') }}" class="btn btn-custom fs-5">Read More</a>
                 </div>
 
-                <div class="col-lg-4 pb-3 animate-me">
-                    <div class="rounded-circle bg-primary contact mx-auto my-3"></div>
+                <div class="col-lg-4 pb-3 animate-me fs-5">
+                    <div class="contact mx-auto my-3"><i style="color: #black; font-size: 80px" class="fa fa-users fa-lg contact mt-3 p-2"></i></div>
                     <div class="spacer-single"></div>
                     <h3>Get Expert Help, Fast</h3>
                     <p>Expert help, always here. Get questions answered & needs met for a positive experience. We value your feedback!</p>
-                    <a href="{{ route('blog') }}" class=" btn btn-custom">Read More</a>
+                    <a href="{{ route('blog') }}" class=" btn btn-custom fs-5">Read More</a>
                 </div>
 
             </div>
@@ -183,7 +183,7 @@
                         <h2 class=" fs-2 d-inline-block s4 animate-me-1">Pure Ceylon Cinnamon</h2>
                         <div class="spacer-single"></div>
                     </div>
-                    <p class="leads">Close your eyes and inhale the invigorating aroma of freshly ground Sri Lankan cinnamon. The first taste is a burst of warming sweetness, followed by a subtle complexity that lingers on the palate. Our single-origin cinnamon, sourced from sustainable Sri Lankan farms, is ethically harvested to ensure the highest quality and a taste experience unlike any other. This meticulous approach delivers pure Ceylon magic, ready to elevate your culinary creations.</p>
+                    <p class="leads fs-5">Close your eyes and inhale the invigorating aroma of freshly ground Sri Lankan cinnamon. The first taste is a burst of warming sweetness, followed by a subtle complexity that lingers on the palate. Our single-origin cinnamon, sourced from sustainable Sri Lankan farms, is ethically harvested to ensure the highest quality and a taste experience unlike any other. This meticulous approach delivers pure Ceylon magic, ready to elevate your culinary creations.</p>
                 </div>
                 <div class="col-md-6 text-center align-self-center">
                     <img src="{{ asset('img/background/cinnamon4.jpg') }}" alt="" class="rounded shadows h-auto w-80 bowl">

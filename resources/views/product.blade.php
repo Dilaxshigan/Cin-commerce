@@ -34,7 +34,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Organic Ceylon Alba Cinnamon Sticks</h5>
                             <h6 class="card-subtitle mb-2 text-muted">Rs 150</h6>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text fs-5">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             <div class="text-center">
                                 <a href="{{ route('product_1') }}" class="btn btn-custom fw-semibold text-uppercase text-decoration-none">View product</a>
                             </div>
@@ -48,7 +48,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Organic Ceylon Alba Cinnamon Sticks</h5>
                             <h6 class="card-subtitle mb-2 text-muted">Rs 150</h6>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text fs-5">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             <div class="text-center">
                                 <a href="{{ route('product_1') }}" class="btn btn-custom fw-semibold text-uppercase text-decoration-none">View product</a>
                             </div>
@@ -62,7 +62,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Organic Ceylon Alba Cinnamon Sticks</h5>
                             <h6 class="card-subtitle mb-2 text-muted">Rs 150</h6>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text fs-5">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             <div class="text-center">
                                 <a href="{{ route('product_1') }}" class="btn btn-custom fw-semibold text-uppercase text-decoration-none">View product</a>
                             </div>
@@ -76,7 +76,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Organic Ceylon Alba Cinnamon Sticks</h5>
                             <h6 class="card-subtitle mb-2 text-muted">Rs 150</h6>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text fs-5">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             <div class="text-center">
                                 <a href="{{ route('product_1') }}" class="btn btn-custom fw-semibold text-uppercase text-decoration-none">View product</a>
                             </div>
@@ -101,7 +101,7 @@
     <div class="container mb-3">
         <div class="row aligns-item-center">
             <div class="col-md-6 mb-5 d-flex align-items-center">
-                <p class="leads">
+                <p class="leads fs-5">
                     <strong> Cinnamon Powder - A Culinary Delight with a Touch of Wellness</strong><br>
                     Cinnamon powder , a culinary treasure derived from the bark of the cinnamon tree, has captivated taste buds and enriched cuisines for centuries. Its captivating aroma, reminiscent of warm woods and sweet spices, instantly elevates any dish, adding a touch of sophistication and elegance. The flavor of cinnamon powder is a delightful dance of sweet, spicy, and slightly astringent notes, harmonizing perfectly with a wide range of culinary creations.
 
@@ -124,7 +124,7 @@
             </div>
             <div class="col-md-6 mt-3 mb-3 d-flex align-items-center">
 
-                <p class="leads">
+                <p class="leads fs-5">
                     <strong> Aromatic Essence with a Touch of Magic</strong><br>
                     Cinnamon oil, extracted from the bark of the cinnamon tree, is a captivating essence that has enchanted the world for centuries. Its warm, spicy aroma, reminiscent of sun-kissed meadows and exotic spices, instantly evokes a sense of warmth and invigoration. Beyond its captivating fragrance, cinnamon oil is a treasure trove of natural benefits, offering a touch of magic to both wellness and beauty routines.
 

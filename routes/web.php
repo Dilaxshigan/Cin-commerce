@@ -14,6 +14,7 @@ Route::get('/',[homeController::class,'index'])->name('home');
 Route::get('blog',[blogController::class,'index'])->name('blog');
 Route::get('card',[cardController::class,'index'])->name('card');
 Route::get('contact',[contactController::class,'index'])->name('contact');
+Route::post("/store_info", [contactController::class, 'store_info'])->name('store_info');
 Route::get('product',[productController::class,'index'])->name('product');
 Route::get('product-1',[productController::class,'product'])->name('product_1');
 

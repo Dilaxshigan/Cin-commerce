@@ -24,7 +24,7 @@
 
 <!-- Price section starts -->
  <section id="price" class="my-5 py-5">
- <div class="container my-5">
+ <div class="container my-5 fs-5">
         <h2 class="fs2 display-4 fw-semibold text-secondary mt-5 mb-4">Organic Ceylon Alba Cinnamon Sticks</h2>
         <div class="row justify-content-md-center price-row">
             <div class="col-md-6 text-center">
@@ -215,56 +215,56 @@
                 <div class="accordion hover-effects" id="accordionExample">
                     <div class="accordion-item">
                         <h2 class="" id="headingOne">
-                            <button class="accordion-button  " type="button" data-bs-toggle="collapse"
+                            <button class="accordion-button fs-4" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                 Premium Quality
                             </button>
                         </h2>
                         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                             data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
+                            <div class="accordion-body fs-5">
                                 <strong>Top-notch cinnamon from finest farms for unparalleled flavor.
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingTwo">
-                            <button class="accordion-button  collapsed" type="button" data-bs-toggle="collapse"
+                            <button class="accordion-button  collapsed fs-4" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                 100% Natural and Organic
                             </button>
                         </h2>
                         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                             data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
+                            <div class="accordion-body fs-5">
                                 Organically grown without chemicals for pure, unadulterated flavor.
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingThree">
-                            <button class="accordion-button  collapsed" type="button" data-bs-toggle="collapse"
+                            <button class="accordion-button  collapsed fs-4" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                 Rich in Health Benefits
                             </button>
                         </h2>
                         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                             data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
+                            <div class="accordion-body fs-5">
                                 Packed with antioxidants and anti-inflammatory properties.
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingThree4">
-                            <button class="accordion-button  collapsed" type="button" data-bs-toggle="collapse"
+                            <button class="accordion-button  collapsed fs-4" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseThree4" aria-expanded="false" aria-controls="collapseThree4">
                                 Sustainably Sourced
                             </button>
                         </h2>
                         <div id="collapseThree4" class="accordion-collapse collapse" aria-labelledby="headingThree4"
                             data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
+                            <div class="accordion-body fs-5">
                                 Committed to sustainable farming for future generations.
                             </div>
                         </div>
@@ -273,14 +273,14 @@
 
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingThree5">
-                            <button class="accordion-button  collapsed" type="button" data-bs-toggle="collapse"
+                            <button class="accordion-button  collapsed fs-4" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseThree5" aria-expanded="false" aria-controls="collapseThree5">
                                 Versatile Uses
                             </button>
                         </h2>
                         <div id="collapseThree5" class="accordion-collapse collapse" aria-labelledby="headingThree5"
                             data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
+                            <div class="accordion-body fs-5">
                                 Incredibly versatile for sweet and savory dishes.
                             </div>
                         </div>
@@ -288,14 +288,14 @@
 
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingThree6">
-                            <button class="accordion-button  collapsed" type="button" data-bs-toggle="collapse"
+                            <button class="accordion-button  collapsed fs-4" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseThree6" aria-expanded="false" aria-controls="collapseThree6">
                                 Stringent Quality Control
                             </button>
                         </h2>
                         <div id="collapseThree6" class="accordion-collapse collapse" aria-labelledby="headingThree6"
                             data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
+                            <div class="accordion-body fs-5">
                                 Rigorous quality measures ensure freshness and safety.
                             </div>
                         </div>
@@ -303,14 +303,14 @@
 
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingThree7">
-                            <button class="accordion-button  collapsed" type="button" data-bs-toggle="collapse"
+                            <button class="accordion-button  collapsed fs-4" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseThree7" aria-expanded="false" aria-controls="collapseThree7">
                                 Community Support
                             </button>
                         </h2>
                         <div id="collapseThree7" class="accordion-collapse collapse" aria-labelledby="headingThree7"
                             data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
+                            <div class="accordion-body fs-5">
                                 Supporting local farmers through fair trade practices.
                             </div>
                         </div>

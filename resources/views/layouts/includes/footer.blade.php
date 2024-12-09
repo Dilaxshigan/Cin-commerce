@@ -19,7 +19,7 @@
                     </div>
                 </div>
 
-                <div class="row justify-content-evenly">
+                <div class="row justify-content-evenly fs-5">
                     <div class="col-md-3 mx-auto">
                         <p style="text-align: justify;"><strong>Hale Cinnamon</strong> is a leading Sri Lankan cinnamon
                             exporter. We are proud to provide high-quality Sri Lankan cinnamon, produced using
@@ -78,22 +78,7 @@
             <hr class="mb-4">
 
             <div class="row">
-                <div class="col-md-7 col-lg-8">
-                    <p>Copyright © 2024 All rights reserved by:
-                        <a href="/" class="text-decoration-none">
-                            <strong class="text-warning">Hale Cinnamon</strong>
-                        </a>
 
-                    </p>
-                </div>
-               
-                <div class="col-md-5 col-lg-4">
-                    <div class="text-center text-md-right">
-                        Developed by <a href="https://www.apexx.lk/" class="text-decoration-none">
-                            <strong class="text-warning">Apexx &#x1F60A;</strong>
-                        </a>
-                    </div>
-                </div>
             </div>
         </div>
 </footer>
